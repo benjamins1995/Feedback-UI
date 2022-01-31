@@ -13,7 +13,6 @@ function RatingSelect({ select }) {
     setSelected(+e.currentTarget.value);
     select(+e.currentTarget.value);
   };
-
   return (
     <ul className='rating'>
       <li>
